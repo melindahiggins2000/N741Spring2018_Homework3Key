@@ -1,0 +1,22 @@
+---
+title: "homework 3"
+author: "Melinda Higgins"
+date: "February 21, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Yes I successfull installed these packages
+
+here is proof that "dada2" is working
+
+```{r}
+library(dada2); packageVersion("dada2")
+library(ggplot2); packageVersion("ggplot2")
+library(ShortRead); packageVersion("ShortRead")
+library(phyloseq); packageVersion("phyloseq")
+```
+
